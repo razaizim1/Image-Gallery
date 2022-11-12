@@ -1,0 +1,177 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 250px);
+    grid-gap: 10px;
+}
+
+.box {
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 90px 0;
+    border: 2px solid red;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16
+{
+grid-column: span 6;
+background-image: url(images/1.jpg);
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+grid-row: span 1;
+}
+
+.box2 {
+    background-color: yellowgreen;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/3.jpg);
+
+
+}
+
+.box3 {
+    background-color: black;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/4.jpg);
+
+
+}
+
+.box4 {
+    background-color: turquoise;
+    grid-column: span 3;
+    grid-row: span 3;
+
+    background-image: url(images/4.jpg);
+    /* background-position: right center; */
+}
+
+.box5 {
+    background-color: brown;
+    grid-column: span 3;
+    grid-row: span 3;
+
+    background-image: url(images/18.jpg);
+    background-position: left right;
+}
+
+.box6 {
+    background-color: aqua;
+    grid-column: span 6;
+    grid-row: span 1;
+
+    background-image: url(images/6.jpg);
+
+}
+
+.box7 {
+    background-color: blueviolet;
+    grid-column: span 2;
+    grid-row: span 1;
+
+    background-image: url(images/7.png);
+
+}
+
+.box8 {
+    background-color: black;
+    grid-column: span 4;
+    grid-row: span 1;
+
+    background-image: url(images/8.jpg);
+
+}
+
+.box9 {
+    background-color: violet;
+    grid-column: span 6;
+    grid-row: span 1;
+
+    background-image: url(images/9.jpg);
+    background-position: center center;
+}
+
+.box10 {
+    background-color: yellow;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/10.png);
+
+}
+
+.box11 {
+    background-color: blue;
+    grid-column: span 3;
+    grid-row: span 2;
+
+    background-image: url(images/2.jpg);
+
+}
+
+.box12 {
+    background-color: burlywood;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/12.jpg);
+
+}
+
+.box13 {
+    background-color: aquamarine;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/13.jpg);
+
+}
+
+.box14 {
+    background-color: royalblue;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/14.jpg);
+    background-position: bottom center;
+}
+
+.box15 {
+    background-color: black;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/15.jpg);
+
+}
+
+.box16 {
+    background-color: green;
+    grid-column: span 3;
+    grid-row: span 1;
+
+    background-image: url(images/16.jpg);
+
+}
